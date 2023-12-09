@@ -1,13 +1,13 @@
 #include <windows.h>
 #include <GL/glut.h>
-
+/*
 int init(void){
     glClearColor(1.0,1.0,1.0,0.0);
     glMatrixMode(GL_PROJECTION);
     gluOrtho2D(0.0,200.0,0.0,150.0);
 }
 
-void display(void){
+void bandeira(void){
     glClear(GL_COLOR_BUFFER_BIT);
     glColor3f(0.0,0.5,0.0);
     glBegin(GL_QUADS);
@@ -37,7 +37,8 @@ int main(int argc, char** argv)
     glutCreateWindow("Exemplo de janela");
 
     init();
-    glutDisplayFunc(display);
+    glutDisplayFunc(bandeira);
     glutMainLoop();
     return 0;
 }
+*/
